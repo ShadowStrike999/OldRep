@@ -4,7 +4,7 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
   this.storageManager = new StorageManager;
   this.actuator       = new Actuator;
 
-  this.startTiles     = 2;
+  this.startTiles     = 256;
 
 /*   this.inputManager.on("crowd", this.crowd.bind(this)); */
   this.inputManager.on("move", this.move.bind(this));
